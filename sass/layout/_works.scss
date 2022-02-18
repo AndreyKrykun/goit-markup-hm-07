@@ -1,0 +1,28 @@
+.works {
+  padding-bottom: 94px;
+}
+
+.images-list {
+  display: flex;
+}
+
+.images-list__item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.works__title,
+.team__title,
+.clients__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
